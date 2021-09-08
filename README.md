@@ -25,6 +25,7 @@ If possible, senders receive the BUSD with an internal gasless transaction daily
 ### Diagram 
 Day 1 is the date when the SC starts selling the 0.1% daily.
 
+![image](https://user-images.githubusercontent.com/83224547/132447999-ac5422ed-956c-4945-85a4-ab800dc337d9.png)
 
 
 
@@ -36,12 +37,12 @@ This is the flow from the point of view of the BEP20 token holder.
 In this example the user does not withdraw the BUSD until the end.
 
 
-User sends 100,000,000 BEP20 to the SC (worth $1969) on Day -100 (100 days before the SC starts selling).
-The users sees “100,000,000 tokens staked. Sales will begin on [Day 1]”
-On Day 1: “Sale started. Your balance is 99,900,000 staked tokens, $1.7 BUSD (withdraw BUSD here)”
-On Day 30: “Your balance is 97,100,000 staked tokens, $69.10 BUSD (withdraw BUSD here)”
-On Day 300: “Your balance is 70,000,000 staked tokens, $970.80 BUSD (withdraw BUSD here)”
-On  Day 1000 (last):  “Your balance is 0 staked tokens (no tokens to withdraw), $3,503.61 BUSD (withdraw BUSD here)”
+- User sends 100,000,000 BEP20 to the SC (worth $1969) on Day -100 (100 days before the SC starts selling).
+- The users sees “100,000,000 tokens staked. Sales will begin on [Day 1]”
+- On Day 1: “Sale started. Your balance is 99,900,000 staked tokens, $1.7 BUSD (withdraw BUSD here)”
+- On Day 30: “Your balance is 97,100,000 staked tokens, $69.10 BUSD (withdraw BUSD here)”
+- On Day 300: “Your balance is 70,000,000 staked tokens, $970.80 BUSD (withdraw BUSD here)”
+- On  Day 1000 (last):  “Your balance is 0 staked tokens (no tokens to withdraw), $3,503.61 BUSD (withdraw BUSD here)”
 
 
 ### Example 2: Withdrawing BUSD 
@@ -49,13 +50,13 @@ On  Day 1000 (last):  “Your balance is 0 staked tokens (no tokens to withdraw)
 In this example the user withdraws BUSD from time to time.
 
 
-User sends 100,000,000 BEP20 to the SC (worth $1969) on Day -100.
-The users sees “100,000,000 tokens staked. Sales will begin on [Day 1]”
-On Day 1: “Sale started. Your balance is 99,900,000 staked tokens, $1.7 BUSD (withdraw BUSD here)”
-On Day 30: “Your balance is 97,100,000 staked tokens, $69.10 BUSD (withdraw BUSD here)”
-User withdraws
-On Day 300: “Your balance is 70,000,000 staked tokens, $901.70 BUSD (withdraw BUSD here)”
-On  Day 1000 (last):  “Your balance is 0 staked tokens (no tokens to withdraw), $3,434.51 BUSD (withdraw BUSD here)”
+- User sends 100,000,000 BEP20 to the SC (worth $1969) on Day -100.
+- The users sees “100,000,000 tokens staked. Sales will begin on [Day 1]”
+- On Day 1: “Sale started. Your balance is 99,900,000 staked tokens, $1.7 BUSD (withdraw BUSD here)”
+- On Day 30: “Your balance is 97,100,000 staked tokens, $69.10 BUSD (withdraw BUSD here)”
+- User withdraws
+- On Day 300: “Your balance is 70,000,000 staked tokens, $901.70 BUSD (withdraw BUSD here)”
+- On  Day 1000 (last):  “Your balance is 0 staked tokens (no tokens to withdraw), $3,434.51 BUSD (withdraw BUSD here)”
 
 
 Note:
@@ -125,13 +126,13 @@ In case some of these changes are better done by creating a new contract and mig
 ## HOW TO MAKE YOUR OFFER
 
 
-Note: MAKE YOUR OFFER, THE VALUE WE DEPOSITED HERE IS JUST FOR REFERENCE. 
-Tell us what you have done before in smart contract / frontend development (with links to your Github if available). 
-Don’t apply if you are not confident you can do this. The contracts will hold significant amounts of money and need to be solid.
-Comment/suggest improvements on these specifications
-Ask questions if something is not clear.
-Tell us how long it would take and how much it would cost (ranges are OK). The Gitcoin deposit we did is there just because it’s a necessary step and we had to put a number.
-We are happy to create a new job with the agreed amount.
+Note: MAKE YOUR OFFER, THE VALUE WE DEPOSITED HERE IS THE MINIMUM WE’LL PAY. 
+- Tell us what you have done before in smart contract / frontend development (with links to your Github if available). 
+- Don’t apply if you are not confident you can do this. The contracts will hold significant amounts of money and need to be solid.
+- Comment/suggest improvements on these specifications
+- Ask questions if something is not clear.
+- Tell us how long it would take and how much it would cost (ranges are OK). The Gitcoin deposit we did is there just because it’s a necessary step and we had to put a number.
+- We are happy to create a new job with the agreed amount.
 
 
 You can also contact us at defi@vaffatoken.com
